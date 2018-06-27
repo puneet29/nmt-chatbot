@@ -51,7 +51,7 @@ preprocessing = {
     # - automatically sets number of steps and restarts training every epoch with changed learning rate
     # - ends training after set number of epochs
     # Set to None to disable
-    'epochs': [0.001, 0.0001, 0.00001],
+    'epochs': [0.0001]*100,
 
 
     ## You don't normally need to change anything below (internal settings)
